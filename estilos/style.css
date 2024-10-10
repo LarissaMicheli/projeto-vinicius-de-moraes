@@ -1,0 +1,75 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Merriweather", serif;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #F0BD71;
+    background-image: url(../imagens/sol-desenho.jpg);
+    background-size: cover;
+    background-attachment:fixed ;
+    
+    
+
+}
+main{
+    font-size: large;
+    max-width: 350px;
+    background-color: rgba(255, 255, 255, 0.752);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+main > p > a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px black;
+}
+main > p > a:hover{
+    background-color: #95f071af;
+    padding: 8px;
+    border-radius: 5px;
+}
+header{
+    background-color: #329ef092;
+    color: rgb(13, 6, 6);
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header > h1{
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 3.5em;
+    flex: 1 1 500px;
+}
+header > nav{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+header > nav > a{
+    background-color: #f071e3ac;
+    color: rgb(8, 10, 11);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center
+}
+header > nav > a:hover{
+    background-color:#96F071;
+    color: white;
+    transition: background-color .5s;
+}
+
